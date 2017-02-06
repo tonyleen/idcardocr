@@ -1,0 +1,21 @@
+{
+  "name": "xxx-node-ocr",
+  "version": "1.0.2",
+  "description": "xxx node ocr",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "keywords": [
+    "xxx",
+    "node",
+    "idcard",
+    "card",
+    "ocr"
+  ],
+  "author": "tonyleen",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.79.0"
+  }
+}
