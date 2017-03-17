@@ -1,0 +1,8 @@
+node_modules/
+.idea/
+logs/*.log
+*.log.*
+*.log
+utils/client.js
+doc.js
+.DS_Store

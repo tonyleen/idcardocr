@@ -23,20 +23,25 @@ ocr.idCardOCR(params, function (err, result) {
 //结果
 
 1头像面
-{
-	name: '叶建华',
-	sex: '男',
-	nation: '汉',
-	birth: '1977/7/14',
-	address: '江西省贵溪市泗沥钦何家村西山组8号附1号',
-	id: '360621197707143215'
-}
-2国徽面
-{
-	valid_date: '2007.10.25-2027.10.25',
-	authority: '包头市公安局'
+
+{ name: '叶建华',
+  sex: '男',
+  nation: '汉',
+  birth: '1977/7/14',
+  address: '江西省贵溪市泗沥钦何家村西山组8号附1号',
+  id: '360621197707143215',
+  side: 0
 }
 
+2国徽面
+
+{
+  valid_date: '2007.10.25-2027.10.25',
+  authority: '包头市公安局',
+  start_date: '2007.10.25',
+  end_date: '2027.10.25',
+  side: 1
+}
 
 ---
 

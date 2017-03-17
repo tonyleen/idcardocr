@@ -1,17 +1,17 @@
 {
   "youtu": {
-    "qq": "xxx",
-    "appID": "xxx",
-    "secretID": "xxx",
-    "secretKey": "xxx"
+    "qq": "",
+    "appID": "",
+    "secretID": "",
+    "secretKey": ""
   },
   "baidu": {
-    "AK": "xxx",
-    "SK": "xxx"
+    "AK": "",
+    "SK": ""
   },
   "ali": {
-    "AppKey": "xxx",
-    "AppSecret": "xxx",
-    "AppCode": "xxx"
+    "AppKey": "",
+    "AppSecret": "",
+    "AppCode": ""
   }
 }

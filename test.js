@@ -1,4 +1,3 @@
-
 'use strict';
 
 var ocrYoutu = require('./index').youtu;
@@ -23,28 +22,32 @@ var params2 = {
 var youtuTest = function () {
   //头像面
   ocrYoutu.idCardOCR(params, function (err, result) {
-    console.log('youtu:', err, {
-      name: result.name,
-      sex: result.sex,
-      nation: result.nation,
-      birth: result.birth,
-      address: result.address,
-      id: result.id
-    });
+    console.log('youtu(头像面):', err, result);
+    console.log('-----line-----');
   });
 
   //国徽面
   ocrYoutu.idCardOCR(params2, function (err, result) {
-    console.log('youtu:', err, {
-      valid_date: result.valid_date,
-      authority: result.authority,
-    });
+    console.log('youtu(国徽面):', err, result);
+    console.log('-----line-----');
   });
 };
 
 var aliTest = function () {
+
+  ocrAli.idCardOCR(params, function (err, result) {
+    console.log('ali(头像面):', err, result);
+    console.log('-----line-----');
+  });
+
+  ocrAli.idCardOCR(params2, function (err, result) {
+    console.log('ali(国徽面):', err, result);
+    console.log('-----line-----');
+  });
+  //批量
   ocrAli.idCardOCR([params, params2], function (err, result) {
-    return console.log('ali:', err, result);
+    console.log('ali(批量):', err, result);
+    console.log('-----line-----');
   });
 };
 
